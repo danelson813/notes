@@ -1,0 +1,28 @@
+'GitHub'
+
+git clone <url>  make sure you are not in a git repo
+
+make an empty github repo
+set up a git remote -v <url to the repo in github>
+if set up git remote -v will give you the url
+
+git remote add origin <url>  to set it up
+
+
+git status
+git init to initialize git in your project
+git add <filename> to stage the file
+git add .      to stage all the files available
+
+git log       to see all of the commits
+
+git branch    gets a list of all branches
+git log --oneline       gets the list one line each
+
+git branch <branchname>     forms a branch with that name
+git switch <branchname>     switches to the new branch
+
+git commit -a -m 'commit message'
+
+git checkout <branchname>   goes to the new branch
+git switch -c <branchname>      creates and opens the new branch

@@ -1,0 +1,21 @@
+
+
+
+pip install virtualvenv
+
+virtualenv <name>       usually venv
+source <name>/bin/activate      to activate the virtual environment
+deactivate                      to deactivate the virtual environment
+
+ipython kernel install --user --name=<name>     to add the virtual env to Jupyter
+
+pip install -r requirdements.txt        to install all of the modules in requirements
+
+---------------------
+
+pip install pipenv
+pipenv install <library name>
+pipenv install pandas==1.2.1
+pipenv install numpy
+pipenv install -r requirements.txt
+

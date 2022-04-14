@@ -1,0 +1,20 @@
+
+
+logging.basicConfig(
+    filename = 'app.log',
+    filemode = 'w' or 'r' or 'a',
+    format = "%(name)s - %(levelname)s - %(message)s"
+)
+
+logger = logging.basicConfig(level=logging.DEBUG)
+
+logger1 = logging.getLogger('logger1')
+logger2 = logging.getLogger('logger2')
+
+handler1 = logging.FileHandler("info.log", 'a')
+handler1.setlevel(logging.INFO)
+handler2 = logging.StreamHandler()
+handle2.setLevel(logging.DEBUG)
+
+logger.addHandler(handler1)
+logger.addHandler(hlandler2)
