@@ -23,7 +23,7 @@ python -m ipykernel install --user --name=<project_name>
 json file: saving a json file with secrets.
 cd <project-dir>
 touch secrets.json
-echo "secrets.json >> .gitignore'
+echo "secrets.json >> .gitignore"
 
 
 example:
